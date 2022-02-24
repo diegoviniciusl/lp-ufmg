@@ -1,0 +1,17 @@
+a) i + r
+
+b) i + r + i
+
+c) i + (r + i)
+
+d) i + i + r + (r + i)
+
+Da esquerda para direita:
+
+a) Real. A soma é entre inteiro e real
+
+b) Real, Real. A soma é entre inteiro e real, e depois entre real e inteiro.
+
+c) Real, Real. A soma é entre real e inteiro, e depois entre inteiro e real.
+
+d) Int, Real, Real, Real. A soma é entre real e inteiro, inteiro e inteiro, real e real, e por último real e real.

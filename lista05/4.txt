@@ -1,0 +1,3 @@
+a) Que a variável "s" tenha implementado as função "isNotEmpty" e "remove".
+
+b) A expressão é referente à um tipo de linguagem dinamicamente tipada, em que o tipo não é relevante desde que o comportamento seja o correto.

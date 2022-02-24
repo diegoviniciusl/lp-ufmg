@@ -1,0 +1,7 @@
+a) 30. 
+
+Pois o programa calcula o somatório de i ao quadrado, começando com i = 1 até 4.
+
+b)
+
+Ele calcula o somatório de 1/(i + a) ao quadrado, começando com 1 até 100.

@@ -1,0 +1,26 @@
+a) Bloco 1: Escopo de g
+  Bloco 2: Linha 2, escopo de let
+  Bloco 3: Escopo de f
+  Bloco 4: Escopo de h
+  Bloco 5: Linha 6, escopo de let
+
+b) g
+  x
+  Linha 3 inc
+  f
+  y
+  h
+  z
+  Linha 7 inc
+
+c) g: Bloco 1
+  x: Bloco 1
+  Linha 3 inc: Bloco 2
+  f: Bloco 2
+  y: Bloco 3
+  h: Bloco 2
+  z: Bloco 4
+  Linha 7 inc: Bloco 5
+
+d) A saída seria 6. Com escopo dinâmico seria 7. O motivo disso é que o valor de inc em f seria vinculado ao valor de inc de h, 
+já que h chama f. No escopo estático não temos essa regra, então o inc em f é buscado do escopo acima de f, na definição de let inc = 1.

@@ -1,0 +1,14 @@
+1. Mark and sweep
+
+Pode ser utilizado em sistemas que não tem tráfego constante, porque o GC varre o heap inteiro para realizar a limpeza, e para isso
+precisa que o sistema esteja parado.
+
+2. Copying
+
+Pode ser utilizado em sistemas de alto tráfego que precisam alocar e desalocar a memória constantemente, pois esse algoritmo
+funciona de maneira rápida.
+
+3. Reference Counting
+
+Pode ser utilizado em sistemas de tempo real, porque a execução do GC não para a execução do sistema. Ele não precisa passar por todo
+heap para realizar a limpeza.

@@ -1,0 +1,4 @@
+a) Na maior parte dos casos é preferível passar por referência as variáveis que consomem muita memória, a menos que isso
+possa impactar alguma lógica importante do sistema.
+
+b) No frame da função dentro da pilha de execução.

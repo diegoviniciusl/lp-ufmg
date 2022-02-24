@@ -1,0 +1,11 @@
+Pavao is an animal
+Tigre is a mammal
+Krypto is a dog
+Pavao, which is an animal, is eating
+Tigre, which is a mammal, is sucking milk
+Tigre, which is an animal, is eating
+Krypto is barking rather loudly.
+Krypto, which is a mammal, is sucking milk.
+Krypto barks when it eats.
+Error
+Krypto is barking rather loudly.

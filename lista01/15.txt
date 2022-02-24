@@ -1,0 +1,5 @@
+a) Em ML o if deve retornar um valor obrigatoriamente, por ser uma expressão. Nesse caso, não temos um valor para caso a expressão seja falsa.
+
+b) Em ML o operador * só pode ser usado entre dois tipos iguais. Nesse caso está sendo usado entre um inteiro e um real.
+
+c) O erro ocorre pois a primeira definição fun fact (n) já engloba a segunda definição fun fact (0), pois 0 está dentro de n. Para ser corrigido deve-se colocar a segunda definição da função como a primeira.

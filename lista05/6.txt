@@ -1,0 +1,6 @@
+É uma ambiguidade na herança, que ocorre quando duas classes
+B e C, herdam de uma terceira classe, A. E a classe D herda de B e C.
+
+Havendo um método X que foi substituído em B e C, então o método herdado de D é de qual classe, de B ou C?
+
+Para resolver isso deve se reescrever o código para que não ocorra.

@@ -1,0 +1,13 @@
+a)
+Linha 1 - Polimorfismo paramétrico
+Linha 6 e 7 - Sobrecarga de operadores
+
+b)
+Nenhum problema de memória pois o destrutor da classe libera o ponteiro alocado ao finalizar.
+
+c)
+Nenhum problema de memória pois o destrutor da classe libera o ponteiro alocado ao finalizar.
+
+d)
+Ocorre de memória pois temos uma perda de referência do ponteiro, dessa forma a memória não é 
+desalocada, e temos uma memory leak.

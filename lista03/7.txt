@@ -1,0 +1,2 @@
+a) Pois a função bad_max é chamada recursivamente na linha 18 e na linha 20, causando
+um acréscimo exponencial do tempo gasto para finalizar a execução.

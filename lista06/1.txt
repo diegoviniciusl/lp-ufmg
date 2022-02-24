@@ -1,0 +1,4 @@
+a) 5. O x em p é a variável global x, tendo o valor 0 inicialmente.
+
+b) 7. Em p o valor de y é acrescentado de 1, fazendo com que o valor de z também seja acrescentado em 1 pois eles apontam pro
+mesmo objeto na memória. Após isso é acrescentado de 1 novamente ao atribuir em z, fazendo com que z e y resultem em 3.

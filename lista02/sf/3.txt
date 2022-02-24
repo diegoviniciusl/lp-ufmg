@@ -1,0 +1,10 @@
+a) Esse programa pode terminar ou entrar em loop dependendo do valor de x. Caso o valor inicial de x seja menor que 1,
+o programa entrará em loop pois a condição do while nunca será atingida, caso o valor inicial de x seja maior que 1,
+o programa terminará pois o x será diminuído até chegar a 1 que é a condição base do while.
+
+b) Esse programa termina em todas as possíveis tentativas. O motivo disso é que em um estado onde x >= 1, o programa fará
+com que x seja diminuído de 1 até atingir a condição do while. Caso x seja menor que 1, o comando do while nunca será
+verdadeiro, fazendo com que o while não rode nem uma vez.
+
+c) Esse programa entra em um loop infinito. O motivo disso é porque a condição do while é sempre verdadeira, pois o estado
+da condição do while começa como verdadeiro e nunca é alterado ao decorrer do programa.

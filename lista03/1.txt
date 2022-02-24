@@ -1,0 +1,5 @@
+a) O resultado da saída seria 1, pois como o escopo é estático, não importa o que a função q faz com o valor x, pois ela só estaria
+modificando o valor do escopo de p. Já que na função r o valor de x é definido como 1, o comando write(x) utilizará esse valor ao invés de utilizar o valor modificado por r.
+
+b) O resultado da saída seria 2, pelo escopo ser dinâmico a função r altera o valor de x para 1, logo depois a função q altera o valor de x para x + 1 utilizando do mesmo
+escopo dinâmico, fazendo com o que o valor final de write(x) resulte como esse valor x alterado.

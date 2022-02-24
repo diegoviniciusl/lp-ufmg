@@ -1,0 +1,12 @@
+a)
+
+valor_inicial - memória estática
+valor_intermediario - memória estática
+taxa - memória dinâmica
+valores - memória dinâmica
+
+b)
+
+valores[0] = 25
+valores[1] = 75
+valores[2] = 15
